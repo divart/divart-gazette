@@ -20,16 +20,26 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'gazette' ); ?></a>
-<?php if ( has_nav_menu( 'top' ) ) : ?>
-				<nav class="top-navigation" role="navigation">
-					<?php
-						wp_nav_menu( array(
-							'theme_location'  => 'top',
-							'depth'           => 1,
-						) );
-					?>
-				</nav><!-- .top-navigation -->
-			<?php endif; ?>
+	<?php if ( has_nav_menu( 'top' ) ) : ?>
+		<nav class="top-navigation" role="navigation">
+		<?php
+			wp_nav_menu( array(
+			'theme_location'  => 'top',
+			'depth'           => 1,
+			) );
+		?>
+		</nav><!-- .top-navigation -->
+	<?php endif; ?>
+	<?php if ( get_header_image() ) : ?>
+		<?php if ( ( is_front_page() && 1 == get_theme_mod( 'gazette_header_image' ) ) || 1 != get_theme_mod( 'gazette_header_image' ) ) : ?>
+		<div class="header-image">
+			<div class="header-image-inner">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt=""></a>
+			</div><!-- .header-image-inner -->
+		</div><!-- .header-image -->
+		<?php endif; ?>
+	<?php endif; // End header image check. ?>
+	
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-header-inner">
 			<div class="site-branding">
@@ -51,15 +61,5 @@
 			</div><!-- #search-header -->
 		</div><!-- .site-header-inner -->
 	</header><!-- #masthead -->
-
-	<?php if ( get_header_image() ) : ?>
-		<?php if ( ( is_front_page() && 1 == get_theme_mod( 'gazette_header_image' ) ) || 1 != get_theme_mod( 'gazette_header_image' ) ) : ?>
-		<div class="header-image">
-			<div class="header-image-inner">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt=""></a>
-			</div><!-- .header-image-inner -->
-		</div><!-- .header-image -->
-		<?php endif; ?>
-	<?php endif; // End header image check. ?>
 
 	<div id="content" class="site-content">
