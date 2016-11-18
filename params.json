@@ -1,0 +1,6 @@
+{
+  "name": "Divart Gazette",
+  "tagline": "Child theme for original/parent theme Gazette https://wordpress.org/themes/gazette/.",
+  "body": "### Welcome to Divart Gazette WordPress child theme for Gazette https://wordpress.org/themes/gazette/\r\n\r\nI added the menu at the top and in the footer. I added full width template...\r\n\r\n### Child theme:\r\nWordPress child theme allows you change the functionality of the theme without having to edit the original/parent theme template files. If you need to modify any template file, we recommend to create a child theme instead of editing the theme template files. Since the child theme is stored separately, you don't need to redo the changes next time you upgrade the theme. \r\n\r\n### How Child Theme Works\r\nBasically once the child theme is activated, WordPress will look for the template files in the child theme folder first. If the file doesn't exist in the child theme, it will fallback to the parent theme folder. In other words, if there is a \"header.php\" in the child theme, WordPress will use that \"header.php\", else it will use the \"header.php\" file in the parent theme.\r\n\r\n### Contact\r\nDIVart Andrzej Wojciechowski [contact support](http://divart.pl).\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
