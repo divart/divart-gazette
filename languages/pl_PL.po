@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DIVart Gazette\n"
+"POT-Creation-Date: 2016-11-18 10:48+0100\n"
+"PO-Revision-Date: 2016-11-18 10:53+0100\n"
+"Last-Translator: Andrzej Wojciechowski <divart@divart.pl>\n"
+"Language-Team: Andrzej Wojciechowski <divart@divart.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: footer.php:51
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:51
+#, php-format
+msgid "Powered by %s"
+msgstr "Zbudowano na %s"
+
+#: footer.php:53
+#, php-format
+msgid "Child Theme: %1$s by %2$s."
+msgstr "Motyw potomny: %1$s by %2$s."
+
+#: functions.php:40
+msgid "Top Location"
+msgstr "U góry"
+
+#: functions.php:41
+msgid "Footer Location"
+msgstr "W stopce"
+
+#: functions.php:81
+msgid ""
+"The featured content section displays on the front page above the header."
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Przejdź do treści"
+
+#: header.php:43
+msgid "Primary Menu"
+msgstr "Menu podstawowe"
+
+#: header.php:49
+msgid "Search"
+msgstr "Szukaj"
+
+#. Theme Name of the plugin/theme
+msgid "DIVart Gazette"
+msgstr "DIVart Gazette"
+
+#. Description of the plugin/theme
+msgid ""
+"A clean and flexible theme perfectly suited for minimalist magazine-style "
+"sites, personal blogs, or any content-rich site. It allows you to highlight "
+"specific articles on the homepage, and to balance readability with a "
+"powerful use of photography — all in a layout that works on any device."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DIVart Andrzej Wojciechowski"
+msgstr "DIVart Andrzej Wojciechowski"
+
+#. Author URI of the plugin/theme
+msgid "http://divart.pl/"
+msgstr "http://divart.pl/"
